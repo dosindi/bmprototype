@@ -1,0 +1,37 @@
+#dependencies
+
+# Django Framework
+Django>=4.2,<5.0
+
+# Database Support
+#psycopg2-binary>=2.9.6  # PostgreSQL adapter
+
+# ASGI Server for Production
+daphne>=4.0.0  # For handling ASGI protocols (optional for WebSockets)
+
+# Environment Variables Management
+python-decouple>=3.8  # Environment variable management
+
+# Static Files Management
+whitenoise>=6.5.0  # Serve static files in production
+
+# Gunicorn for WSGI server (optional if not using Daphne)
+gunicorn>=21.2.0  
+
+# Cloud Storage for Media Files (Optional)
+#boto3>=1.28.0  # AWS S3 storage support
+#django-storages>=1.13.2  # Integrates with AWS S3 for media storage
+
+# Security and Performance
+#dj-database-url>=1.2.0  # Database URL parsing
+django-environ>=0.10.0  # Environment configuration
+django-cors-headers>=4.3.0  # Handling CORS for APIs
+
+# Caching
+#django-redis>=5.4.0  # Optional Redis cache support
+
+# Testing and Debugging
+django-debug-toolbar>=4.2.0  # Debugging during development (remove for production)
+
+# WebSockets (Optional, for real-time features)
+#channels>=4.0.0  # Django Chan
