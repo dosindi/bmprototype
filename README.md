@@ -1,4 +1,4 @@
 bmprototype
 ===========
 
-Django Demo deployment to openshift
+Django Demo deployment to render
